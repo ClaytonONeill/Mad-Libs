@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8">
+    <title>Mad Libs Game</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lemonada|Ubuntu&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="main">
+      <div class="heading">
+      </div>
+      <div class="button">
+        <input type="button" name="submit" value="submit" id="button-1" onclick="submit()">
+        <input type="button" name="reset" value="reset" id="button-2" onclick="reset()">
+      </div>
+      <div class="board">
+        <p id="p-body">Once upon a time a group of  <q id="q1">___</q> General Assembly Students got together and made a startup called  <q id="q2">___</q>  Technologies.  Their goal was to create smart  <q id="q3">___</q> . They approached the challange <q id="q4">___</q> which ultimately lead them to <q id="q5">___</q> fame.</p>
+      </div>
+      <div class="input-hold">
+        <div class=label-hold>
+          <label for='input1'>1. Write a number</label>
+          <label for='input2'>2. Write an adjective</label>
+          <label for='input3'>3. Write a plural noun</label>
+          <label for='input4'>4. Write an adverb</label>
+          <label for='input5'>5. Write another adjective</label>
+        </div>
+        <div class=list-hold>
+          <input type="text" name="number" id="input1">
+          <input type="text" name="adjective" id="input2">
+          <input type="text" name="pluralNoun" id="input3">
+          <input type="text" name="adverb" id="input4">
+          <input type="text" name="another adjective" id="input5">
+        </div>
+      </div>
+      </div>
+    <script src="apps.js"></script>
+  </body>
+</html>

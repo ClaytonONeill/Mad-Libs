@@ -1,0 +1,259 @@
+body  {
+  background-image: url('desk.png');
+  background-size: cover;
+}
+
+
+.main {
+  border: 2px solid grey;
+  height: 40em;
+  width: 40em;
+  margin: 35px auto;
+  background-color: white;
+  box-shadow: 0 0 10px black;
+}
+
+
+.heading  {
+  width: 60%;
+  height: 7em;
+  margin: 5px auto;
+  background-image: url('Mad_Libs.png');
+  background-size: fill;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.board  {
+  display: flex;
+  border: 2px solid grey;
+  width: 90%;
+  height: 50%;
+  margin: 0 auto;
+}
+
+.board:hover {
+  cursor: not-allowed;
+}
+
+.board p {
+  padding: 15px;
+  font-size: 15px;
+  line-height: 50px;
+  text-align: center;
+  color: white;
+  font-family: 'Lemonada', sans-serif;
+}
+
+ q  {
+   text-transform: uppercase;
+ }
+
+.print  {
+  border: 2px solid grey;
+  width: 80%;
+  height: 80%;
+}
+
+.button {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 0 1em 30px;
+  height: 2em;
+  width: 90%;
+}
+
+.input-hold {
+  border: 2px solid grey;
+  width: 85%;
+  margin: .5em auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 6px;
+}
+
+.label-hold {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: .3em;
+}
+
+.list-hold {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: .3em;
+  height: 100px;
+}
+
+.label-hold label {
+  font-size: 13px;
+  font-family: 'Ubuntu', sans-serif;
+  margin-left: 1em;
+  text-transform: uppercase;
+}
+
+.list-hold input  {
+  height: 13px;
+  width: 20em;
+  text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+  text-transform: uppercase;
+}
+
+#button-1 {
+  width: 70px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+#button-2  {
+  width: 70px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+#button-1:hover {
+  background-color: #aaFF00;
+  transition: .7s;
+  cursor: pointer;
+}
+
+#button-2:hover{
+  background-color: red;
+  transition: .7s;
+  cursor: pointer;
+}
+
+@media (max-width: 600px) {
+
+  body {
+    background: white;
+  }
+
+  .main {
+    border: 2px solid grey;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    box-shadow: 0 0 10px black;
+  }
+
+
+  .heading  {
+    width: 98%;
+    height: 7em;
+    margin: 5px auto;
+    background-image: url('Mad_Libs.png');
+    background-size: 104%;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .board  {
+    display: flex;
+    border: 2px solid grey;
+    width: 90%;
+    height: 50%;
+    margin: 0 auto;
+  }
+
+  .board:hover {
+    cursor: not-allowed;
+  }
+
+  .board p {
+    padding: 15px;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    color: white;
+    font-family: 'Lemonada', sans-serif;
+  }
+
+   q  {
+     text-transform: uppercase;
+   }
+
+  .print  {
+    border: 2px solid grey;
+    width: 80%;
+    height: 80%;
+  }
+
+  .button {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 1em auto;
+    height: 2em;
+    width: 90%;
+  }
+
+  .input-hold {
+    border: 2px solid grey;
+    width: 85%;
+    margin: .5em auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 6px;
+  }
+
+  .label-hold {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: .3em;
+  }
+
+  .list-hold {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: .3em;
+    height: 100px;
+  }
+
+  .label-hold label {
+    font-size: 13px;
+    font-family: 'Ubuntu', sans-serif;
+    margin-left: 1em;
+    text-transform: uppercase;
+  }
+
+  .list-hold input  {
+    height: 13px;
+    width: 20em;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    text-transform: uppercase;
+  }
+
+  #button-1 {
+    width: 70px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-family: 'Ubuntu', sans-serif;
+  }
+
+  #button-2  {
+    width: 70px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-family: 'Ubuntu', sans-serif;
+  }
+
+}
